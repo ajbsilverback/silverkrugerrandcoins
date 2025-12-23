@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Source+Sans+3:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Semantic accent palette (blue-forward silver) */
+  --accent-primary: #1f3b63;
+  --accent-secondary: #355b8a;
+  --accent-muted: #93a9c1;
+  --accent-gradient-start: #0f2a4a;
+  --accent-gradient-end: #355b8a;
+
+  /* Base colors for light mode */
+  --bg-page: #ffffff;
+  --bg-surface: #ffffff;
+  --bg-muted: #f6f9fc;
+  --text-primary: #0f172a;
+  --text-secondary: #334155;
+  --border-default: #e2e8f0;
+
+  /* Legacy aliases for backward compatibility */
+  --gold-primary: var(--accent-primary);
+  --gold-light: var(--accent-muted);
+  --gold-dark: var(--accent-gradient-start);
+  --bg-dark: var(--bg-page);
+  --bg-darker: var(--bg-surface);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Source Sans 3", system-ui, sans-serif;
+  background: var(--bg-page);
+  color: var(--text-primary);
+}
+
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display", Georgia, serif;
+  }
+}
+
+@layer components {
+  /* Homepage full-bleed hero */
+  .hero-fullbleed {
+    margin-top: -108px; /* Offset the pt-[108px] from layout */
+  }
+
+  /* Site chrome - unified dark blue treatment for header/footer */
+  .header--interior,
+  .footer-chrome {
+    background: linear-gradient(135deg, var(--accent-gradient-start) 0%, var(--accent-primary) 100%);
+  }
+
+  .header--interior {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 2px 12px rgba(15, 42, 74, 0.15);
+  }
+
+  .footer-chrome {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  /* Accent gradient background */
+  .accent-gradient,
+  .gold-gradient {
+    background: linear-gradient(135deg, var(--accent-gradient-start) 0%, var(--accent-primary) 50%, var(--accent-secondary) 100%);
+  }
+
+  /* Accent text with gradient - primary utility */
+  .accent-text,
+  .gold-text {
+    background: linear-gradient(135deg, var(--accent-gradient-start) 0%, var(--accent-primary) 50%, var(--accent-secondary) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Accent text for dark backgrounds - lighter gradient for contrast */
+  .accent-text-light {
+    background: linear-gradient(135deg, #93a9c1 0%, #c8d5e3 50%, #e2ebf3 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-white transition-all duration-300 rounded-lg;
+    background: linear-gradient(135deg, var(--accent-gradient-start) 0%, var(--accent-primary) 100%);
+    box-shadow: 0 4px 20px rgba(31, 59, 99, 0.25);
+  }
+
+  .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 30px rgba(31, 59, 99, 0.4);
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center px-8 py-4 text-lg font-semibold transition-all duration-300 rounded-lg border-2;
+    border-color: var(--accent-primary);
+    color: var(--accent-primary);
+  }
+
+  .btn-secondary:hover {
+    background: rgba(31, 59, 99, 0.08);
+    transform: translateY(-2px);
+  }
+
+  .card {
+    @apply p-8 rounded-2xl;
+    background: var(--bg-surface);
+    border: 1px solid var(--border-default);
+    box-shadow: 0 4px 24px rgba(15, 23, 42, 0.06);
+  }
+
+  .card:hover {
+    border-color: var(--accent-muted);
+  }
+
+  /* Light mode section - replaces dark overlays */
+  .section-dark {
+    background: var(--bg-muted);
+  }
+
+  /* Subtle pattern overlay for visual interest */
+  .accent-bar-pattern,
+  .gold-bar-pattern {
+    background-image: 
+      linear-gradient(90deg, rgba(31, 59, 99, 0.04) 1px, transparent 1px),
+      linear-gradient(rgba(31, 59, 99, 0.04) 1px, transparent 1px);
+    background-size: 50px 50px;
+  }
+}
+
+/* Widget container styles - light mode */
+.widget-container {
+  @apply rounded-xl overflow-hidden;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-default);
+}
+
+/* Scrollbar styling - matches site chrome */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a3a5c; /* Subtle lighter blue-gray track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent-gradient-start); /* Deep blue matching nav */
+  border-radius: 5px;
+  border: 2px solid #1a3a5c; /* Track color border for inset effect */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-primary); /* Slightly lighter on hover */
+}
+
+/* Firefox scrollbar support */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--accent-gradient-start) #1a3a5c;
+}

@@ -1,0 +1,6 @@
+# https://www.silvercoinsmaster.com robots.txt
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.silvercoinsmaster.com/sitemap.xml
