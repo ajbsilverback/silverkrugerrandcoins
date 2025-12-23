@@ -3,24 +3,24 @@ import Link from "next/link";
 import { SITE_CONFIG } from "@/lib/siteConfig";
 
 export const metadata: Metadata = {
-  title: "Where to Buy Silver Bullion Coins | Independent Dealer Guide",
+  title: "Where to Buy Silver Krugerrand Coins | Independent Dealer Guide",
   description:
-    "Independent guide to buying silver bullion coins from online dealers, local coin shops, government mints, and authorized distributors. No endorsements. Educational information only.",
+    "Independent guide to buying South African Silver Krugerrand coins from online dealers, local coin shops, and authorized distributors. No endorsements. Educational information only.",
   alternates: {
     canonical: `${SITE_CONFIG.canonicalDomain}/where-to-buy`,
   },
   openGraph: {
-    title: "Where to Buy Silver Bullion Coins | Independent Dealer Guide",
+    title: "Where to Buy Silver Krugerrand Coins | Independent Dealer Guide",
     description:
-      "Independent guide to buying silver bullion coins from online dealers, local coin shops, and authorized sources. Educational information only.",
+      "Independent guide to buying South African Silver Krugerrand coins from online dealers, local coin shops, and authorized sources. Educational information only.",
     url: `${SITE_CONFIG.domain}/where-to-buy`,
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Where to Buy Silver Bullion Coins | Independent Dealer Guide",
+    title: "Where to Buy Silver Krugerrand Coins | Independent Dealer Guide",
     description:
-      "Independent guide to buying silver bullion coins from online dealers, local coin shops, and authorized sources.",
+      "Independent guide to buying South African Silver Krugerrand coins from online dealers, local coin shops, and authorized sources.",
   },
 };
 
@@ -29,55 +29,55 @@ const onlineDealers = [
   {
     name: "Monex",
     description:
-      "A precious metals dealer providing live market data and silver bullion coins alongside other silver products.",
-    url: "https://www.monex.com/silver-coins/",
+      "A precious metals dealer providing live market data and South African Silver Krugerrand coins alongside other silver products.",
+    url: "https://www.monex.com/south-african-silver-krugerrand-coins-for-sale/",
   },
   {
     name: "JM Bullion",
     description:
-      "An established online precious metals dealer offering Silver Eagles, Maple Leafs, and other government-minted bullion.",
+      "An established online precious metals dealer offering Silver Krugerrands, Silver Eagles, and other government-minted bullion.",
     url: "https://www.jmbullion.com/",
   },
   {
     name: "APMEX",
     description:
-      "One of the largest online bullion retailers with a wide selection of silver bullion coins in various conditions.",
+      "One of the largest online bullion retailers with a wide selection of Silver Krugerrands in various conditions.",
     url: "https://www.apmex.com/",
   },
   {
     name: "SD Bullion",
     description:
-      "An online dealer known for competitive pricing on silver coins and other government-minted bullion products.",
+      "An online dealer known for competitive pricing on Silver Krugerrands and other government-minted bullion products.",
     url: "https://sdbullion.com/",
   },
   {
     name: "Goldline",
     description:
-      "A precious metals dealer offering silver coins with personalized service and market insights.",
+      "A precious metals dealer offering Silver Krugerrands with personalized service and market insights.",
     url: "https://www.goldline.com/",
   },
   {
     name: "GovMint",
     description:
-      "A collectible coins and precious metals dealer specializing in government-issued bullion including silver coins.",
+      "A collectible coins and precious metals dealer specializing in government-issued bullion including Silver Krugerrands.",
     url: "https://www.govmint.com/",
   },
   {
     name: "Bullion Exchanges",
     description:
-      "A New York-based bullion dealer offering silver bullion coins with multiple payment options.",
+      "A New York-based bullion dealer offering Silver Krugerrand coins with multiple payment options.",
     url: "https://bullionexchanges.com/",
   },
   {
     name: "Provident Metals",
     description:
-      "An online bullion dealer offering competitive prices on silver coins and other government bullion.",
+      "An online bullion dealer offering competitive prices on Silver Krugerrands and other South African bullion.",
     url: "https://www.providentmetals.com/",
   },
   {
     name: "Money Metals Exchange",
     description:
-      "A precious metals dealer offering silver coins with price transparency and educational content.",
+      "A precious metals dealer offering Silver Krugerrands with price transparency and educational content.",
     url: "https://www.moneymetals.com/",
   },
 ];
@@ -86,9 +86,9 @@ export default function WhereToBuyPage() {
   const webPageSchema = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    name: "Where to Buy Silver Bullion Coins | Independent Buying Guide",
+    name: "Where to Buy Silver Krugerrand Coins | Independent Buying Guide",
     description:
-      "Learn where to buy silver bullion coins online and locally, including major dealers, local coin shops, and authorized distributors.",
+      "Learn where to buy South African Silver Krugerrand coins online and locally, including major dealers, local coin shops, and authorized distributors.",
     url: `${SITE_CONFIG.domain}/where-to-buy`,
     publisher: {
       "@type": "Organization",
@@ -100,9 +100,9 @@ export default function WhereToBuyPage() {
   const itemListSchema = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    name: "Where to buy silver bullion coins",
+    name: "Where to buy Silver Krugerrand coins",
     description:
-      "Types of vendors and platforms for purchasing silver bullion coins",
+      "Types of vendors and platforms for purchasing South African Silver Krugerrand coins",
     itemListElement: [
       {
         "@type": "ListItem",
@@ -112,7 +112,7 @@ export default function WhereToBuyPage() {
       {
         "@type": "ListItem",
         position: 2,
-        name: "Government Mint Authorized Purchasers",
+        name: "South African Mint Distributors",
       },
       {
         "@type": "ListItem",
@@ -145,11 +145,11 @@ export default function WhereToBuyPage() {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold mb-6">
               <span className="accent-text">Where to Buy</span>
               <br />
-              <span className="text-slate-900">Silver Bullion Coins</span>
+              <span className="text-slate-900">Silver Krugerrand Coins</span>
             </h1>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto mb-6">
               An independent educational guide to understanding your options
-              for purchasing silver bullion coins from various authorized sources.
+              for purchasing South African Silver Krugerrand coins from various authorized sources.
             </p>
             <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 max-w-2xl mx-auto">
               <p className="text-slate-600 text-sm">
@@ -192,7 +192,7 @@ export default function WhereToBuyPage() {
                 </h3>
                 <p className="text-slate-600 text-sm">
                   Compare premiums over spot price across multiple dealers.
-                  Silver coins typically carry 3-6% premiums over spot
+                  Silver Krugerrands typically carry 3-5% premiums over spot
                   for standard bullion coins.
                 </p>
               </div>
@@ -205,7 +205,7 @@ export default function WhereToBuyPage() {
                 </h3>
                 <p className="text-slate-600 text-sm">
                   Understand shipping costs, delivery times, and insurance
-                  coverage. For silver coins, fully insured and discreet
+                  coverage. For Silver Krugerrands, fully insured and discreet
                   shipping is essential for protection.
                 </p>
               </div>
@@ -218,7 +218,7 @@ export default function WhereToBuyPage() {
                 </h3>
                 <p className="text-slate-600 text-sm">
                   Check whether the dealer offers buyback programs. Silver
-                  coins have excellent liquidity, and reputable dealers maintain
+                  Krugerrands have excellent liquidity, and reputable dealers maintain
                   competitive buyback prices.
                 </p>
               </div>
@@ -230,7 +230,7 @@ export default function WhereToBuyPage() {
                   Authenticity Guarantee
                 </h3>
                 <p className="text-slate-600 text-sm">
-                  Ensure dealers guarantee authenticity. Silver coins from
+                  Ensure dealers guarantee authenticity. Silver Krugerrands from
                   reputable dealers should come with verification and return
                   policies if authenticity concerns arise.
                 </p>
@@ -251,55 +251,39 @@ export default function WhereToBuyPage() {
             </div>
           </section>
 
-          {/* Government Mints & Authorized Sources */}
+          {/* South African Mint & Distribution */}
           <section>
             <h2 className="text-3xl md:text-4xl font-display font-bold mb-4 text-center">
-              <span className="accent-text">Government Mints</span> & Authorized Sources
+              <span className="accent-text">South African Mint</span> & Distribution
             </h2>
             <div className="card p-8 max-w-3xl mx-auto">
               <p className="text-slate-600 mb-6">
-                Silver bullion coins are minted by sovereign mints worldwide. 
-                While some mints sell directly to the public, most bullion coins 
-                are distributed through Authorized Purchasers and dealers.
+                Silver Krugerrand coins are minted exclusively by the South African Mint, 
+                the same mint that has produced Gold Krugerrands since 1967. 
+                The coins are distributed through authorized dealers worldwide.
               </p>
               <div className="bg-slate-50 border border-slate-200 rounded-lg p-4 mb-6">
                 <h3 className="text-lg font-semibold text-slate-900 mb-2">
                   Understanding the Distribution Chain
                 </h3>
                 <p className="text-slate-600 text-sm">
-                  Government mints typically sell bullion coins to a network of 
-                  <strong className="text-slate-900"> Authorized Purchasers</strong>, large 
-                  dealers who meet mint requirements. These Authorized Purchasers 
-                  then sell to smaller dealers and the public.
+                  The South African Mint sells Silver Krugerrands to a network of 
+                  <strong className="text-slate-900"> authorized distributors</strong>, who 
+                  then sell to dealers and the public. Purchasing from established dealers 
+                  ensures authenticity and competitive pricing.
                 </p>
               </div>
               <div className="space-y-3">
                 <span className="text-slate-600">
-                  Major government mints include the{" "}
+                  Learn more about the South African Mint at{" "}
                   <a
-                    href="https://www.usmint.gov/"
+                    href="https://www.samint.co.za/"
                     target="_blank"
                     rel="nofollow noopener noreferrer"
                     className="text-slate-700 hover:underline font-medium"
                   >
-                    U.S. Mint
-                  </a>,{" "}
-                  <a
-                    href="https://www.mint.ca/"
-                    target="_blank"
-                    rel="nofollow noopener noreferrer"
-                    className="text-slate-700 hover:underline font-medium"
-                  >
-                    Royal Canadian Mint
-                  </a>, and{" "}
-                  <a
-                    href="https://www.royalmint.com/"
-                    target="_blank"
-                    rel="nofollow noopener noreferrer"
-                    className="text-slate-700 hover:underline font-medium"
-                  >
-                    Royal Mint
-                  </a>.
+                    samint.co.za
+                  </a>
                 </span>
               </div>
             </div>
@@ -311,7 +295,7 @@ export default function WhereToBuyPage() {
               <span className="accent-text">Online</span> Bullion Dealers
             </h2>
             <p className="text-slate-600 text-center mb-8 max-w-2xl mx-auto">
-              Major online dealers offer competitive pricing on silver bullion 
+              Major online dealers offer competitive pricing on Silver Krugerrand 
               coins with convenient shipping. We encourage you to compare prices
               across multiple sources before purchasing.
             </p>
@@ -360,7 +344,7 @@ export default function WhereToBuyPage() {
             </h2>
             <div className="card p-8 max-w-3xl mx-auto">
               <p className="text-slate-600 mb-6">
-                Local coin shops and bullion dealers commonly stock silver bullion 
+                Local coin shops and bullion dealers commonly stock Silver Krugerrand 
                 coins, offering convenient face-to-face transactions:
               </p>
               <ul className="space-y-4 mb-6">
@@ -368,7 +352,7 @@ export default function WhereToBuyPage() {
                   <span className="text-slate-500 mt-1">•</span>
                   <span className="text-slate-600">
                     <strong className="text-slate-900">Immediate possession:</strong>{" "}
-                    Walk out with your silver coins the same day, no shipping delays.
+                    Walk out with your Silver Krugerrands the same day, no shipping delays.
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
@@ -398,7 +382,7 @@ export default function WhereToBuyPage() {
                 <p className="text-slate-500 text-sm">
                   <strong className="text-slate-600">Finding local dealers:</strong>{" "}
                   Search for &ldquo;coin shop near me&rdquo; or &ldquo;silver dealer&rdquo;
-                  in your area. Call ahead to confirm silver coin availability and pricing.
+                  in your area. Call ahead to confirm Silver Krugerrand availability and pricing.
                 </p>
               </div>
             </div>
@@ -412,7 +396,7 @@ export default function WhereToBuyPage() {
             <div className="card p-8 max-w-3xl mx-auto">
               <p className="text-slate-600 mb-6">
                 For IRA purchases, you&apos;ll work with a specialized custodian 
-                who handles the regulatory requirements. Many silver bullion 
+                who handles the regulatory requirements. Silver Krugerrand 
                 coins are IRS-approved for Precious Metals IRAs.
               </p>
               <div className="bg-slate-50 border border-slate-200 rounded-lg p-4 mb-6">
@@ -420,8 +404,8 @@ export default function WhereToBuyPage() {
                   IRA Eligibility Requirements
                 </h3>
                 <p className="text-slate-600 text-sm">
-                  Silver coins meeting IRS requirements (.999 minimum purity, 
-                  government-minted) qualify for Precious Metals IRAs. Coins must 
+                  Silver Krugerrands meet IRS requirements (.999 purity, 
+                  government-minted) for Precious Metals IRAs. Coins must 
                   be held by an approved custodian in an approved depository.
                 </p>
               </div>
@@ -472,12 +456,12 @@ export default function WhereToBuyPage() {
               <ul className="space-y-3">
                 <li>
                   <a
-                    href="https://www.monex.com/silver-prices/"
+                    href="https://www.monex.com/silver-south-african-krugerrand-price-charts/"
                     target="_blank"
                     rel="noopener noreferrer nofollow"
                     className="inline-flex items-center text-slate-700 hover:text-slate-900 transition-colors font-medium"
                   >
-                    <span>Monex Silver pricing</span>
+                    <span>Monex Silver Krugerrand pricing</span>
                     <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                     </svg>

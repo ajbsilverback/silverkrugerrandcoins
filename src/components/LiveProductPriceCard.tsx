@@ -7,9 +7,9 @@ type LiveProductPriceCardProps = {
 };
 
 /**
- * Server Component - Fetches silver coin price ONCE per page load
+ * Server Component - Fetches Silver Krugerrand price ONCE per page load
  * 
- * Uses Monex API with configured product symbol
+ * Uses Monex API with configured product symbol (SKR)
  * This is PRODUCT-SPECIFIC pricing, NOT raw silver spot.
  * 
  * ABSOLUTELY NO setInterval, useEffect, or client-side polling.
@@ -24,7 +24,7 @@ export default async function LiveProductPriceCard({ showCta = true }: LiveProdu
     return (
       <div className="max-w-3xl mx-auto rounded-xl border border-slate-200 shadow-md p-6 sm:p-10 bg-white">
         <p className="text-slate-500 text-center text-lg">
-          Silver coin pricing ({SITE_CONFIG.productSymbol}) is temporarily unavailable.
+          Silver Krugerrand pricing ({SITE_CONFIG.productSymbol}) is temporarily unavailable.
         </p>
       </div>
     );
@@ -39,7 +39,7 @@ export default async function LiveProductPriceCard({ showCta = true }: LiveProdu
       <div className="flex items-center justify-between">
         <div>
           <h2 className="text-xl sm:text-2xl font-display font-semibold text-slate-900">
-            Silver Bullion Coin Price
+            Silver Krugerrand Price
           </h2>
           <p className="text-xs text-slate-500 mt-1">
             Product pricing ({SITE_CONFIG.productSymbol})
@@ -61,7 +61,7 @@ export default async function LiveProductPriceCard({ showCta = true }: LiveProdu
           <p className="text-5xl sm:text-6xl lg:text-7xl font-display font-extrabold tracking-tight accent-text">
             {formatUSD(data.ask)}
           </p>
-          <p className="text-lg text-slate-500 mt-2">per 1 oz silver coin</p>
+          <p className="text-lg text-slate-500 mt-2">per 1 oz Silver Krugerrand</p>
         </div>
       </div>
 
@@ -166,9 +166,9 @@ export default async function LiveProductPriceCard({ showCta = true }: LiveProdu
 
       {/* Attribution */}
       <p className="text-xs text-slate-400 text-center pt-4 border-t border-slate-200">
-        Silver coin ({SITE_CONFIG.productSymbol}) pricing from{" "}
+        Silver Krugerrand ({SITE_CONFIG.productSymbol}) pricing from{" "}
         <a
-          href="https://www.monex.com/silver-coins/"
+          href="https://www.monex.com/south-african-silver-krugerrand-coins-for-sale/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-slate-600 hover:underline"
@@ -180,4 +180,3 @@ export default async function LiveProductPriceCard({ showCta = true }: LiveProdu
     </div>
   );
 }
-

@@ -54,104 +54,104 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 // Generate descriptive Monex anchor text for each article
 function getMonexAnchorText(slug: string): string {
   const anchorTextMap: Record<string, string> = {
-    "premiums-explained": "Monex silver market pricing information",
-    "coin-comparison": "Monex guide to investing in silver",
+    "premiums-explained": "Monex Silver Krugerrand pricing information",
+    "coin-comparison": "Monex guide to Silver Krugerrand investing",
     "storage-options": "Monex silver investment knowledge base",
-    "purity-advantages": "Monex silver coin product information",
-    "liquidity-considerations": "Monex silver investment resources",
+    "purity-advantages": "Monex Silver Krugerrand product information",
+    "liquidity-considerations": "Monex Silver Krugerrand investment resources",
     "market-dynamics": "Monex live silver prices",
-    "spreads-explained": "Monex silver price data",
-    "authentication-guide": "Monex silver investing knowledge base",
+    "spreads-explained": "Monex Silver Krugerrand price data",
+    "authentication-guide": "Monex Silver Krugerrand product details",
     "ira-eligibility": "Monex silver IRA information",
     "portfolio-allocation": "Monex investing in silver resources",
-    "first-time-buyers-guide": "Monex silver coin products and pricing",
+    "first-time-buyers-guide": "Monex Silver Krugerrand products and pricing",
     "tax-considerations": "Monex silver investment knowledge base",
   };
-  return anchorTextMap[slug] || "Monex silver resources";
+  return anchorTextMap[slug] || "Monex Silver Krugerrand resources";
 }
 
 // Generate AI summary bullets based on resource content
 function generateAISummaryBullets(slug: string, title: string): string[] {
   const summaryMap: Record<string, string[]> = {
     "premiums-explained": [
-      "This article explains why silver coins have premiums over spot",
-      "Learn how premiums of 3-6% compare across different silver coins",
+      "This article explains why Silver Krugerrands have premiums over spot",
+      "Learn how Silver Krugerrand premiums of 3-5% compare across coins",
       "Understand the factors that cause premium fluctuations",
       "Discover strategies to secure the best pricing when purchasing",
-      "Compare total cost of ownership for different silver coin options",
+      "Compare total cost of ownership for Silver Krugerrands vs other coins",
     ],
     "coin-comparison": [
-      "This article compares Silver Eagle, Maple Leaf, and Britannia coins",
-      "Learn the key differences: .999 purity vs .9999 (Maple Leaf)",
+      "This article compares Silver Krugerrand with Silver Eagle and Maple Leaf",
+      "Learn the key differences: .999 purity and Krugerrand heritage",
       "Understand that all 1 oz coins contain exactly 1 oz of silver",
-      "Discover which coin best fits different investment goals",
+      "Discover why Silver Krugerrand's recognition supports strong liquidity",
       "Get guidance on IRA eligibility for each coin type",
     ],
     "storage-options": [
-      "This article covers storage solutions for silver coins",
+      "This article covers storage solutions for Silver Krugerrands",
       "Learn about home safes, safe deposit boxes, and vault options",
       "Understand IRA storage requirements at approved depositories",
-      "Discover insurance considerations for your silver holdings",
-      "Get guidance on protecting your silver investment",
+      "Discover insurance considerations for your Silver Krugerrand holdings",
+      "Get guidance on protecting your investment",
     ],
     "purity-advantages": [
-      "This article explains the significance of .999 fine purity",
+      "This article explains the significance of Silver Krugerrand .999 purity",
       "Learn why purity standards matter for silver coins",
-      "Understand purity vs silver content (all contain 1 oz silver)",
-      "Discover when higher purity matters for investors",
-      "Compare different silver coins for various use cases",
+      "Understand purity vs silver content (all 1 oz coins contain 1 oz silver)",
+      "Discover how Silver Krugerrand purity meets IRA requirements",
+      "Compare Silver Krugerrand to other coins for various use cases",
     ],
     "liquidity-considerations": [
-      "This article explains liquidity dynamics for silver coins",
-      "Learn how government-minted products ensure strong dealer demand",
+      "This article explains liquidity dynamics for Silver Krugerrands",
+      "Learn how the Krugerrand name ensures strong dealer demand worldwide",
       "Understand typical sale timelines (1-2 business days)",
       "Discover strategies for efficient buying and selling",
       "Get guidance on documentation for smooth transactions",
     ],
     "market-dynamics": [
-      "This article explains the forces that move silver prices",
-      "Learn how industrial demand and investment flows affect silver values",
+      "This article explains the forces that move Silver Krugerrand values",
+      "Learn how industrial demand and investment flows affect silver",
       "Understand the role of economic events and safe-haven demand",
-      "Discover how supply dynamics influence the silver market",
+      "Discover how supply dynamics influence Silver Krugerrand premiums",
       "Get context for interpreting silver price movements",
     ],
     "spreads-explained": [
-      "This article explains bid-ask spreads on silver coins",
-      "Learn why silver coin spreads are typically 3-5%",
+      "This article explains bid-ask spreads on Silver Krugerrands",
+      "Learn why Silver Krugerrand spreads are typically 3-5%",
       "Understand how spreads affect your total cost of ownership",
       "Discover strategies to minimize spread impact on returns",
       "Calculate your break-even point including spread costs",
     ],
     "authentication-guide": [
-      "This article covers authentication for silver coins",
-      "Learn the official specifications for major silver coins",
+      "This article covers authentication for Silver Krugerrands",
+      "Learn the official Silver Krugerrand specifications from the South African Mint",
       "Understand professional authentication options (NGC, PCGS)",
-      "Discover visual verification techniques for government coins",
+      "Discover visual verification techniques for the Kruger and Springbok designs",
       "Get guidance on avoiding counterfeits and red flags",
     ],
     "ira-eligibility": [
-      "This article explains silver coin IRA eligibility",
+      "This article explains Silver Krugerrand IRA eligibility",
       "Learn why .999 purity meets IRS requirements",
       "Understand custodian and depository requirements",
-      "Discover the costs of IRA silver ownership",
+      "Discover the costs of IRA Silver Krugerrand ownership",
       "Compare IRA ownership vs personal possession",
     ],
     "portfolio-allocation": [
-      "This article covers strategic allocation to silver coins",
+      "This article covers strategic allocation to Silver Krugerrands",
       "Learn typical precious metals allocations (5-15% of portfolio)",
-      "Understand physical silver vs ETF trade-offs",
+      "Understand physical Silver Krugerrands vs ETF trade-offs",
       "Discover dollar-cost averaging vs lump-sum strategies",
       "Get guidance on balancing IRA and personal holdings",
     ],
     "first-time-buyers-guide": [
-      "This article guides first-time buyers through silver coin purchases",
+      "This article guides first-time Silver Krugerrand buyers",
       "Learn how to evaluate and select reputable dealers",
       "Understand payment methods, settlement, and delivery",
-      "Discover why dealer pricing varies and how to compare",
+      "Discover why Silver Krugerrand pricing varies between dealers",
       "Get practical tips for documentation and storage preparation",
     ],
     "tax-considerations": [
-      "This article provides a high-level overview of silver tax considerations",
+      "This article provides a high-level overview of Silver Krugerrand tax considerations",
       "Learn how physical silver is classified for federal tax purposes",
       "Understand capital gains basics and holding period implications",
       "Discover how state tax treatment varies across jurisdictions",
@@ -161,8 +161,8 @@ function generateAISummaryBullets(slug: string, title: string): string[] {
 
   return summaryMap[slug] || [
     `This article provides comprehensive coverage of ${title.toLowerCase()}`,
-    "Learn key concepts and practical considerations for silver coin investors",
-    "Understand how this topic affects your silver coin investment strategy",
+    "Learn key concepts and practical considerations for Silver Krugerrand investors",
+    "Understand how this topic affects your Silver Krugerrand investment strategy",
     "Get actionable guidance based on industry best practices",
     "Find answers to common questions in this area",
   ];
@@ -320,14 +320,14 @@ export default async function ResourcePage({ params }: Props) {
           {/* Internal Links */}
           <div className="mt-10 p-5 md:p-6 rounded-xl bg-slate-50 border border-slate-200">
             <p className="text-slate-600 mb-3 text-sm md:text-base">
-              Continue learning about silver bullion coins:
+              Continue learning about Silver Krugerrand coins:
             </p>
             <div className="flex flex-wrap gap-3 md:gap-4">
               <Link
                 href="/live-silver-prices"
                 className="inline-flex items-center text-slate-700 hover:text-slate-900 transition-colors font-medium"
               >
-                <span>View current silver prices</span>
+                <span>View Silver Krugerrand prices</span>
                 <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>
@@ -336,7 +336,7 @@ export default async function ResourcePage({ params }: Props) {
                 href="/where-to-buy"
                 className="inline-flex items-center text-slate-700 hover:text-slate-900 transition-colors font-medium"
               >
-                <span>Where to buy silver coins</span>
+                <span>Where to buy Silver Krugerrands</span>
                 <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>
@@ -396,17 +396,17 @@ export default async function ResourcePage({ params }: Props) {
             <p className="text-slate-600 mb-6 max-w-xl mx-auto text-sm md:text-base">
               Explore more{" "}
               <Link href="/resources" className="text-slate-700 hover:underline font-medium">
-                resources about silver coins
+                resources about Silver Krugerrands
               </Link>{" "}
               or check{" "}
               <Link href="/live-silver-prices" className="text-slate-700 hover:underline font-medium">
-                current market prices
+                current Silver Krugerrand prices
               </Link>{" "}
               to inform your investment decisions.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <Link href="/live-silver-prices" className="btn-primary">
-                View Silver Prices
+                View Silver Krugerrand Prices
               </Link>
               <Link href="/resources" className="btn-secondary">
                 More Resources

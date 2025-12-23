@@ -8,24 +8,24 @@ import { homeQA } from "@/data/qa-content";
 import { fetchProductSpot, formatUSD } from "@/lib/monexSpot";
 
 export const metadata: Metadata = {
-  title: "Silver Bullion Coins | Expert Guide to .999 Fine Silver Coins",
+  title: "South African Silver Krugerrand Coins | Expert Guide to .999 Fine Silver",
   description:
-    "Comprehensive guide to silver bullion coins. Government-minted, .999 fine silver coins with strong liquidity. Learn about pricing, premiums, IRA eligibility, and investing.",
+    "Comprehensive guide to South African Silver Krugerrand coins. Government-minted by the South African Mint, .999 fine silver with strong global liquidity. Learn about pricing, premiums, IRA eligibility, and investing.",
   alternates: {
     canonical: SITE_CONFIG.canonicalDomain,
   },
   openGraph: {
-    title: "Silver Bullion Coins | Expert Guide to .999 Fine Silver Coins",
+    title: "South African Silver Krugerrand Coins | Expert Guide to .999 Fine Silver",
     description:
-      "Comprehensive guide to silver bullion coins. Government-minted, .999 fine silver with strong liquidity.",
+      "Comprehensive guide to South African Silver Krugerrand coins. Government-minted, .999 fine silver with strong global liquidity.",
     url: SITE_CONFIG.domain,
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Silver Bullion Coins | Expert Guide to .999 Fine Silver Coins",
+    title: "South African Silver Krugerrand Coins | Expert Guide to .999 Fine Silver",
     description:
-      "Comprehensive guide to silver bullion coins. Government-minted, .999 fine silver coins.",
+      "Comprehensive guide to South African Silver Krugerrand coins. Government-minted, .999 fine silver coins.",
   },
 };
 
@@ -50,9 +50,9 @@ export default async function HomePage() {
   const webPageSchema = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    name: `${SITE_CONFIG.brandName} - Your Guide to Silver Bullion Coins`,
+    name: `${SITE_CONFIG.brandName} - Your Guide to South African Silver Krugerrand Coins`,
     description:
-      "Comprehensive educational resource about silver bullion coins, government-minted .999 fine silver with strong liquidity.",
+      "Comprehensive educational resource about South African Silver Krugerrand coins, government-minted .999 fine silver with strong global liquidity.",
     url: SITE_CONFIG.domain,
     publisher: {
       "@type": "Organization",
@@ -64,12 +64,12 @@ export default async function HomePage() {
   const productSchema = {
     "@context": "https://schema.org",
     "@type": "Product",
-    name: "Silver Bullion Coin",
+    name: "South African Silver Krugerrand Coin",
     description:
-      "One troy ounce silver bullion coin, .999 fine purity, government-minted and recognized worldwide.",
+      "One troy ounce South African Silver Krugerrand coin, .999 fine purity, minted by the South African Mint and recognized worldwide.",
     brand: {
       "@type": "Brand",
-      name: "Government Mint",
+      name: "South African Mint",
     },
     category: "Silver Coins",
     material: "Silver",
@@ -99,7 +99,7 @@ export default async function HomePage() {
           <div 
             className="absolute inset-0 bg-cover bg-center bg-no-repeat"
             style={{
-              backgroundImage: "url('/silver-american-eagle-hero.png')",
+              backgroundImage: "url('/south-african-silver-krugerrand-hero.png')",
               backgroundPosition: "center center",
             }}
           />
@@ -120,19 +120,19 @@ export default async function HomePage() {
           <div className="max-w-2xl">
             {/* Certificate line - typographic treatment */}
             <p className="text-[13px] text-slate-500 tracking-[0.2em] uppercase mb-6">
-              .999 Fine Silver&ensp;·&ensp;Government Minted&ensp;·&ensp;Worldwide Liquidity
+              .999 Fine Silver&ensp;·&ensp;South African Mint&ensp;·&ensp;Worldwide Liquidity
             </p>
 
             {/* Main Headline */}
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-display font-bold leading-[0.95] mb-8 tracking-tight">
               <span className="accent-text">Silver</span>
               <br />
-              <span className="accent-text">Bullion Coins</span>
+              <span className="accent-text">Krugerrand</span>
             </h1>
 
             {/* Subheadline */}
             <p className="text-xl md:text-2xl text-slate-600 leading-relaxed mb-10 max-w-xl">
-              Government-minted silver coins with .999 fine purity. 
+              South African Silver Krugerrand coins with .999 fine purity. 
               Trusted by investors worldwide for liquidity and value.
             </p>
 
@@ -173,25 +173,25 @@ export default async function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold mb-4">
-              <span className="accent-text">Live Silver Coin Pricing</span>
+              <span className="accent-text">Live Silver Krugerrand Pricing</span>
             </h2>
             <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-              Current market data for 1 oz silver bullion coins.
+              Current market data for 1 oz South African Silver Krugerrand coins.
             </p>
           </div>
           <LiveProductPriceCard />
         </div>
       </section>
 
-      {/* Why Silver Bullion Coins Section */}
+      {/* Why Silver Krugerrand Section */}
       <section className="py-16 md:py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12 md:mb-16">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold mb-4">
-              Why <span className="accent-text">Silver Bullion Coins</span>?
+              Why <span className="accent-text">Silver Krugerrand</span>?
             </h2>
             <p className="text-lg md:text-xl text-slate-600 max-w-2xl mx-auto">
-              Government-minted silver coins offer .999 fine purity with full government backing and worldwide recognition.
+              The Silver Krugerrand offers .999 fine purity with the heritage of the world&apos;s most famous bullion coin name.
             </p>
           </div>
 
@@ -216,7 +216,7 @@ export default async function HomePage() {
                 .999 Fine Purity
               </h3>
               <p className="text-slate-600 leading-relaxed">
-                Government-minted silver coins are struck from .999 fine silver, ensuring maximum silver content per coin with no base metal alloys.
+                Silver Krugerrand coins are struck from .999 fine silver, ensuring maximum silver content per coin with no base metal alloys diluting your investment.
               </p>
             </div>
 
@@ -237,10 +237,10 @@ export default async function HomePage() {
                 </svg>
               </div>
               <h3 className="text-2xl font-display font-semibold mb-4 text-slate-900">
-                Government Backed
+                Krugerrand Heritage
               </h3>
               <p className="text-slate-600 leading-relaxed">
-                Produced by sovereign mints with legal tender status. Weight and purity are guaranteed, ensuring worldwide dealer recognition and trust.
+                Building on 50+ years of Gold Krugerrand history, the Silver Krugerrand carries instant recognition from dealers and investors worldwide.
               </p>
             </div>
 
@@ -264,25 +264,25 @@ export default async function HomePage() {
                 IRA Eligible
               </h3>
               <p className="text-slate-600 leading-relaxed">
-                Many silver coins qualify for Precious Metals IRAs under IRS rules. The .999 purity exceeds the .999 fineness minimum required for tax-advantaged retirement accounts.
+                Silver Krugerrand coins qualify for Precious Metals IRAs under IRS rules. The .999 purity meets the fineness minimum required for tax-advantaged retirement accounts.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Who Buys Silver Coins Section */}
+      {/* Who Buys Silver Krugerrand Section */}
       <section className="py-16 md:py-24 relative overflow-hidden section-dark">
         <div className="absolute inset-0 accent-bar-pattern opacity-50" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold mb-6">
-                Who Buys <span className="accent-text">Silver Bullion Coins</span>?
+                Who Buys <span className="accent-text">Silver Krugerrands</span>?
               </h2>
               <p className="text-lg md:text-xl text-slate-600 mb-8">
-                Silver bullion coins appeal to investors who prioritize 
-                purity, government backing, and strong liquidity.
+                Silver Krugerrand coins appeal to investors who value 
+                the iconic Krugerrand design in an accessible silver format.
               </p>
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
@@ -295,7 +295,7 @@ export default async function HomePage() {
                     </h3>
                     <p className="text-slate-600">
                       Investors seeking affordable precious metals exposure choose silver 
-                      for its lower entry point compared to gold. Each coin contains exactly 
+                      for its lower entry point compared to gold. Each Silver Krugerrand contains 
                       one troy ounce of .999 fine silver.
                     </p>
                   </div>
@@ -309,8 +309,8 @@ export default async function HomePage() {
                       IRA Investors
                     </h3>
                     <p className="text-slate-600">
-                      Those building Precious Metals IRAs value government-minted coins for their 
-                      IRS-approved status, government guarantee, and strong 
+                      Those building Precious Metals IRAs value Silver Krugerrands for their 
+                      IRS-approved status, South African Mint backing, and strong 
                       secondary market for eventual distributions.
                     </p>
                   </div>
@@ -321,11 +321,12 @@ export default async function HomePage() {
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold text-slate-900 mb-2">
-                      Collectors & Investors
+                      Krugerrand Collectors
                     </h3>
                     <p className="text-slate-600">
-                      Iconic coin designs from government mints appeal to collectors 
-                      and bullion investors alike, combining artistry with intrinsic value.
+                      Gold Krugerrand collectors expanding into silver appreciate the 
+                      consistent design language and shared heritage with the world&apos;s 
+                      most recognized bullion coin.
                     </p>
                   </div>
                 </div>
@@ -343,10 +344,10 @@ export default async function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12 md:mb-16">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold mb-4">
-              Comparing <span className="accent-text">Silver Bullion Coins</span>
+              Comparing <span className="accent-text">Silver Krugerrand</span>
             </h2>
             <p className="text-lg md:text-xl text-slate-600 max-w-2xl mx-auto">
-              Understanding how different silver bullion coins compare 
+              Understanding how the Silver Krugerrand compares to other silver bullion coins 
               helps you make informed investment decisions.
             </p>
           </div>
@@ -359,13 +360,13 @@ export default async function HomePage() {
                     Feature
                   </th>
                   <th className="text-center py-4 px-6 text-slate-800 font-display font-semibold">
+                    Silver Krugerrand
+                  </th>
+                  <th className="text-center py-4 px-6 text-slate-500 font-display">
                     Silver Eagle
                   </th>
                   <th className="text-center py-4 px-6 text-slate-500 font-display">
                     Maple Leaf
-                  </th>
-                  <th className="text-center py-4 px-6 text-slate-500 font-display">
-                    Britannia
                   </th>
                 </tr>
               </thead>
@@ -375,22 +376,22 @@ export default async function HomePage() {
                   <td className="py-4 px-6 text-center text-emerald-600 font-medium">
                     .999
                   </td>
-                  <td className="py-4 px-6 text-center">.9999</td>
                   <td className="py-4 px-6 text-center">.999</td>
+                  <td className="py-4 px-6 text-center">.9999</td>
                 </tr>
                 <tr className="border-b border-slate-200">
                   <td className="py-4 px-6 font-medium">Issuing Mint</td>
                   <td className="py-4 px-6 text-center text-slate-800 font-medium">
-                    U.S. Mint
+                    South African Mint
                   </td>
+                  <td className="py-4 px-6 text-center">U.S. Mint</td>
                   <td className="py-4 px-6 text-center">Royal Canadian</td>
-                  <td className="py-4 px-6 text-center">Royal Mint</td>
                 </tr>
                 <tr className="border-b border-slate-200">
                   <td className="py-4 px-6 font-medium">Face Value</td>
-                  <td className="py-4 px-6 text-center text-slate-800 font-medium">$1 USD</td>
+                  <td className="py-4 px-6 text-center text-slate-800 font-medium">1 Rand</td>
+                  <td className="py-4 px-6 text-center">$1 USD</td>
                   <td className="py-4 px-6 text-center">$5 CAD</td>
-                  <td className="py-4 px-6 text-center">£2 GBP</td>
                 </tr>
                 <tr className="border-b border-slate-200">
                   <td className="py-4 px-6 font-medium">IRA Eligible</td>
@@ -400,17 +401,17 @@ export default async function HomePage() {
                 </tr>
                 <tr className="border-b border-slate-200">
                   <td className="py-4 px-6 font-medium">Typical Premium</td>
-                  <td className="py-4 px-6 text-center text-slate-800 font-medium">3-6%</td>
-                  <td className="py-4 px-6 text-center">2-5%</td>
+                  <td className="py-4 px-6 text-center text-slate-800 font-medium">3-5%</td>
+                  <td className="py-4 px-6 text-center">3-6%</td>
                   <td className="py-4 px-6 text-center">2-5%</td>
                 </tr>
                 <tr>
                   <td className="py-4 px-6 font-medium">Best For</td>
                   <td className="py-4 px-6 text-center text-slate-800 font-medium">
-                    U.S. Legal Tender
+                    Krugerrand Heritage
                   </td>
+                  <td className="py-4 px-6 text-center">U.S. Legal Tender</td>
                   <td className="py-4 px-6 text-center">Highest Purity</td>
-                  <td className="py-4 px-6 text-center">Security Features</td>
                 </tr>
               </tbody>
             </table>
@@ -423,43 +424,43 @@ export default async function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12 md:mb-16">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold mb-4">
-              Iconic <span className="accent-text">Design & Heritage</span>
+              Iconic <span className="accent-text">Krugerrand Design</span>
             </h2>
             <p className="text-lg md:text-xl text-slate-600 max-w-2xl mx-auto">
-              Silver bullion coins feature some of the most celebrated 
-              coin designs from mints around the world.
+              The Silver Krugerrand features the same iconic design as its gold counterpart, 
+              connecting to over 50 years of bullion history.
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
             <div className="card">
               <h3 className="text-xl font-display font-semibold text-slate-900 mb-4">
-                Obverse: Iconic Imagery
+                Obverse: Paul Kruger Portrait
               </h3>
               <p className="text-slate-600 mb-4">
-                Government-minted silver coins feature distinctive obverse designs, 
-                from Walking Liberty to national symbols, each representing 
-                the heritage and values of their issuing nation.
+                The obverse features the portrait of Paul Kruger, the former President 
+                of the South African Republic. This iconic design has represented 
+                South African bullion since 1967.
               </p>
               <p className="text-slate-500 text-sm">
-                <strong className="text-slate-700">Historical Note:</strong> Many designs 
-                have been celebrated for decades, becoming instantly recognizable 
-                symbols of quality and authenticity.
+                <strong className="text-slate-700">Historical Note:</strong> Paul Kruger 
+                (1825-1904) served four terms as President and is a key figure in 
+                South African history.
               </p>
             </div>
 
             <div className="card">
               <h3 className="text-xl font-display font-semibold text-slate-900 mb-4">
-                Reverse: National Symbols
+                Reverse: Springbok Antelope
               </h3>
               <p className="text-slate-600 mb-4">
-                Reverse designs typically feature national emblems, wildlife, or 
-                symbolic imagery that connects the coin to its country of origin 
-                and reinforces its authenticity.
+                The reverse displays the Springbok antelope, South Africa&apos;s national 
+                animal. This graceful image represents the natural heritage of 
+                South Africa and is instantly recognizable.
               </p>
               <p className="text-slate-500 text-sm">
-                <strong className="text-slate-700">Global Recognition:</strong> These 
-                designs are recognized by dealers and investors worldwide, 
+                <strong className="text-slate-700">Global Recognition:</strong> The 
+                Springbok design is recognized by dealers and investors worldwide, 
                 supporting strong liquidity in secondary markets.
               </p>
             </div>

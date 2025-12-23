@@ -10,123 +10,123 @@ export interface Resource {
 export const resources: Resource[] = [
   {
     slug: "premiums-explained",
-    title: "Understanding Silver Coin Premiums: A Complete Guide",
+    title: "Understanding Silver Krugerrand Premiums: What You Pay Over Spot",
     description:
-      "Learn what premiums are, why silver coins have premiums over spot, and how to evaluate costs when purchasing silver bullion coins.",
+      "Learn why Silver Krugerrands carry premiums over spot price, how South African Mint production costs factor in, and strategies for securing competitive pricing.",
     excerpt:
-      "Discover why silver bullion coins carry premiums over spot and how to maximize your silver buying power.",
+      "Discover why Silver Krugerrand coins carry premiums and how to evaluate your true cost when purchasing from dealers.",
     category: "Pricing",
-    monexLink: "https://www.monex.com/silver-prices/",
+    monexLink: "https://www.monex.com/silver-south-african-krugerrand-price-charts/",
   },
   {
     slug: "coin-comparison",
-    title: "Silver Eagle vs Maple Leaf vs Britannia: Comparing Silver Coins",
+    title: "How Silver Krugerrands Compare to Other Silver Bullion Coins",
     description:
-      "A detailed comparison of major silver bullion coins to help you choose the right coin for your investment goals.",
+      "See how the Silver Krugerrand's heritage, premiums, and liquidity stack up against other silver bullion options for investment purposes.",
     excerpt:
-      "Compare American Silver Eagle, Canadian Maple Leaf, and British Britannia coins across purity, premiums, and liquidity.",
+      "Understand the Silver Krugerrand's unique advantages: 50+ years of Krugerrand heritage, competitive premiums, and global dealer recognition.",
     category: "Investment",
-    monexLink: "https://www.monex.com/silver-coins/",
+    monexLink: "https://www.monex.com/south-african-silver-krugerrand-coins-for-sale/",
   },
   {
     slug: "storage-options",
-    title: "Storing Your Silver Coins: Options and Best Practices",
+    title: "Storing Silver Krugerrands: Home Safes, Bank Boxes & IRA Vaults",
     description:
-      "Compare storage solutions for silver bullion coins from home safes to bank safe deposit boxes and professional vaults.",
+      "Compare storage solutions for your Silver Krugerrand collection from home safes to bank safe deposit boxes and IRS-approved depositories.",
     excerpt:
-      "A comprehensive guide to securing your silver coin investment with appropriate storage solutions.",
+      "A practical guide to securing your Silver Krugerrand investment with the right storage solution for your needs.",
     category: "Security",
-    monexLink: "https://www.monex.com/knowledge-base/silver-investing/",
+    monexLink: "https://www.monex.com/investing-in-silver/",
   },
   {
     slug: "purity-advantages",
-    title: "The .999 Purity Standard: Why Silver Purity Matters",
+    title: "Silver Krugerrand .999 Purity: What It Means for Investors",
     description:
-      "Understanding the significance of .999 fine purity in silver coins and how it compares across different mints.",
+      "Understanding the .999 fine silver purity standard in Silver Krugerrands, IRA eligibility requirements, and how purity affects valuation.",
     excerpt:
-      "Learn why silver coin purity standards matter for investors and IRA eligibility.",
+      "Learn why the Silver Krugerrand's .999 purity matters for IRA eligibility and investment value.",
     category: "Products",
-    monexLink: "https://www.monex.com/silver-coins/",
+    monexLink: "https://www.monex.com/south-african-silver-krugerrand-coins-for-sale/",
   },
   {
     slug: "liquidity-considerations",
-    title: "Liquidity Considerations for Silver Coins",
+    title: "Silver Krugerrand Liquidity: Buying and Selling with Confidence",
     description:
-      "Understanding the liquidity of silver bullion coins and how to plan for buying and selling.",
+      "How the Krugerrand name's 50-year heritage supports strong liquidity, fast dealer transactions, and competitive buyback pricing worldwide.",
     excerpt:
-      "Explore the liquidity dynamics of silver coins and strategies for efficient transactions.",
+      "Explore why Silver Krugerrands enjoy excellent liquidity and dealer demand globally.",
     category: "Investment",
-    monexLink: "https://www.monex.com/silver-prices/",
+    monexLink: "https://www.monex.com/silver-south-african-krugerrand-price-charts/",
   },
   {
     slug: "market-dynamics",
-    title: "Silver Market Dynamics: What Moves Silver Coin Prices",
+    title: "What Moves Silver Krugerrand Prices: Market Forces Explained",
     description:
-      "Understanding the economic factors, industrial demand, and market forces that influence silver prices.",
+      "Understanding how industrial demand, investment flows, currency movements, and global events affect Silver Krugerrand values.",
     excerpt:
-      "Explore the key drivers behind silver price movements and what they mean for silver coin investors.",
+      "Learn the key market forces that drive silver prices and what they mean for your Silver Krugerrand holdings.",
     category: "Market",
     monexLink: "https://www.monex.com/silver-prices/",
   },
   {
     slug: "spreads-explained",
-    title: "Understanding Bid-Ask Spreads on Silver Coins",
+    title: "Silver Krugerrand Bid-Ask Spreads: Calculating Your True Costs",
     description:
-      "Learn how dealer spreads work and strategies to minimize costs when buying and selling silver coins.",
+      "How dealer spreads work for Silver Krugerrands, what constitutes competitive pricing, and strategies to minimize transaction costs.",
     excerpt:
-      "Master the concept of bid-ask spreads and learn how to get the best prices on your silver trades.",
+      "Master bid-ask spreads to get the best pricing on Silver Krugerrand purchases and sales.",
     category: "Pricing",
-    monexLink: "https://www.monex.com/silver-prices/",
+    monexLink: "https://www.monex.com/silver-south-african-krugerrand-price-charts/",
   },
   {
     slug: "authentication-guide",
-    title: "Authenticating Silver Coins: Security Features & Verification",
+    title: "Authenticating Silver Krugerrands: Specifications & Verification",
     description:
-      "Best practices for verifying authenticity and understanding security features on silver bullion coins.",
+      "Official Silver Krugerrand specifications from the South African Mint, visual verification of the Paul Kruger and Springbok designs, and authentication best practices.",
     excerpt:
-      "Protect your investment with proper authentication knowledge and verification techniques.",
+      "Protect your investment by knowing how to verify authentic Silver Krugerrands from the South African Mint.",
     category: "Security",
-    monexLink: "https://www.monex.com/silver-coins/",
+    monexLink: "https://www.monex.com/south-african-silver-krugerrand-coins-for-sale/",
   },
   {
     slug: "ira-eligibility",
-    title: "Silver Coin IRA Eligibility: Adding Coins to Your Retirement Account",
+    title: "Silver Krugerrand IRA Eligibility: Requirements & Process",
     description:
-      "Understanding how silver bullion coins qualify for Precious Metals IRAs and the requirements for IRA ownership.",
+      "How Silver Krugerrands qualify for Precious Metals IRAs under IRS rules, custodian requirements, and storage at approved depositories.",
     excerpt:
-      "Learn how silver coins meet IRS requirements for tax-advantaged retirement accounts.",
+      "Learn how Silver Krugerrands meet IRS requirements for tax-advantaged retirement accounts.",
     category: "Investment",
     monexLink: "https://www.monex.com/investing-in-silver/",
   },
   {
     slug: "portfolio-allocation",
-    title: "Allocating to Silver Coins in Your Portfolio",
+    title: "Adding Silver Krugerrands to Your Investment Portfolio",
     description:
-      "Strategic considerations for incorporating silver bullion coins into a diversified investment portfolio.",
+      "Strategic considerations for incorporating Silver Krugerrands into a diversified portfolio, allocation percentages, and balancing physical vs paper silver.",
     excerpt:
-      "Discover how silver coins fit into portfolio diversification strategies for serious investors.",
+      "Discover how Silver Krugerrands fit into portfolio diversification and wealth preservation strategies.",
     category: "Investment",
     monexLink: "https://www.monex.com/investing-in-silver/",
   },
   {
     slug: "first-time-buyers-guide",
-    title: "Buying Silver Coins: What First-Time Buyers Should Know",
+    title: "Buying Your First Silver Krugerrand: A Step-by-Step Guide",
     description:
-      "A comprehensive guide for first-time buyers covering the practical process of purchasing silver bullion coins.",
+      "Everything first-time buyers need to know about purchasing Silver Krugerrands: choosing dealers, understanding pricing, payment, and taking delivery.",
     excerpt:
-      "Learn what to expect when purchasing your first silver coin, from choosing a dealer to taking delivery.",
+      "A practical walkthrough for purchasing your first Silver Krugerrand from dealer selection to delivery.",
     category: "Buying Guide",
-    monexLink: "https://www.monex.com/silver-coins/",
+    monexLink: "https://www.monex.com/south-african-silver-krugerrand-coins-for-sale/",
   },
   {
     slug: "tax-considerations",
-    title: "Tax Considerations When Buying and Selling Silver Coins",
+    title: "Tax Considerations for Silver Krugerrand Investors",
     description:
-      "A high-level overview of tax considerations related to physical silver coin ownership, including capital gains and IRA ownership.",
+      "Overview of federal and state tax treatment for Silver Krugerrand purchases, sales, and IRA ownership. Educational information only—consult a tax professional.",
     excerpt:
-      "Understand the tax landscape for physical silver investments before making your purchase decision.",
+      "Understand the tax landscape for physical Silver Krugerrand ownership before making investment decisions.",
     category: "Tax & Legal",
-    monexLink: "https://www.monex.com/knowledge-base/silver-investing/",
+    monexLink: "https://www.monex.com/investing-in-silver/",
   },
 ];
 

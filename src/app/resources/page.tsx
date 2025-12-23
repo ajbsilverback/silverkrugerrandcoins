@@ -7,24 +7,24 @@ import { resourcesQA } from "@/data/qa-content";
 import { fetchProductSpot } from "@/lib/monexSpot";
 
 export const metadata: Metadata = {
-  title: "Silver Bullion Coin Educational Resources & Investment Guides",
+  title: "Silver Krugerrand Educational Resources & Investment Guides",
   description:
-    "In-depth educational guides on silver bullion coins covering premiums, coin comparisons, storage options, IRA eligibility, market dynamics, and portfolio allocation strategies.",
+    "In-depth educational guides on South African Silver Krugerrand coins covering premiums, coin comparisons, storage options, IRA eligibility, market dynamics, and portfolio allocation strategies.",
   alternates: {
     canonical: `${SITE_CONFIG.canonicalDomain}/resources`,
   },
   openGraph: {
-    title: "Silver Bullion Coin Educational Resources & Investment Guides",
+    title: "Silver Krugerrand Educational Resources & Investment Guides",
     description:
-      "In-depth educational guides on silver bullion coins covering premiums, storage, coin comparisons, and portfolio strategies.",
+      "In-depth educational guides on South African Silver Krugerrand coins covering premiums, storage, coin comparisons, and portfolio strategies.",
     url: `${SITE_CONFIG.domain}/resources`,
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Silver Bullion Coin Educational Resources & Investment Guides",
+    title: "Silver Krugerrand Educational Resources & Investment Guides",
     description:
-      "In-depth educational guides on silver coins covering premiums, storage, and investment strategies.",
+      "In-depth educational guides on Silver Krugerrand coins covering premiums, storage, and investment strategies.",
   },
 };
 
@@ -52,9 +52,9 @@ export default async function ResourcesPage({ searchParams }: PageProps) {
   const webPageSchema = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    name: "Silver Bullion Coin Resources & Educational Guides",
+    name: "Silver Krugerrand Resources & Educational Guides",
     description:
-      "Comprehensive educational resources about silver bullion coins covering premiums, comparisons, storage, and investment strategies.",
+      "Comprehensive educational resources about South African Silver Krugerrand coins covering premiums, comparisons, storage, and investment strategies.",
     url: `${SITE_CONFIG.domain}/resources`,
     publisher: {
       "@type": "Organization",
@@ -132,7 +132,7 @@ export default async function ResourcesPage({ searchParams }: PageProps) {
             </h1>
 
             <p className="text-xl text-slate-600 leading-relaxed mt-6">
-              Deepen your understanding of silver bullion coins and the 
+              Deepen your understanding of Silver Krugerrand coins and the 
               broader silver market with our comprehensive guides. Whether you&apos;re 
               comparing coins, understanding premiums, or planning storage, our 
               resources provide the insights you need. Check{" "}
@@ -145,7 +145,7 @@ export default async function ResourcesPage({ searchParams }: PageProps) {
               </Link>
               , or return to our{" "}
               <Link href="/" className="text-slate-700 hover:underline font-medium">
-                Silver Bullion Coins overview
+                Silver Krugerrand overview
               </Link>.
             </p>
           </div>
@@ -267,12 +267,12 @@ export default async function ResourcesPage({ searchParams }: PageProps) {
       <section className="py-12 md:py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-2xl md:text-3xl font-display font-bold mb-4">
-            Current <span className="accent-text">Silver Prices</span>
+            Current <span className="accent-text">Silver Krugerrand Prices</span>
           </h2>
           <p className="text-slate-600 mb-6">
             View live{" "}
             <Link href="/live-silver-prices" className="text-slate-700 hover:underline font-medium">
-              silver coin pricing and market data
+              Silver Krugerrand pricing and market data
             </Link>{" "}
             to inform your investment decisions.
           </p>

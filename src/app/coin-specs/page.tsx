@@ -3,74 +3,74 @@ import Link from "next/link";
 import { SITE_CONFIG } from "@/lib/siteConfig";
 
 export const metadata: Metadata = {
-  title: "Silver Bullion Coin Specifications | Technical Details & Investor Facts",
+  title: "Silver Krugerrand Specifications | Technical Details & Investor Facts",
   description:
-    "Complete technical specifications for 1 oz silver bullion coins: .999 fine purity, weight, dimensions, legal tender status, IRA eligibility, and premium factors.",
+    "Complete technical specifications for the South African Silver Krugerrand: .999 fine purity, 1 oz weight, dimensions, legal tender status, IRA eligibility, and premium factors.",
   alternates: {
     canonical: `${SITE_CONFIG.canonicalDomain}/coin-specs`,
   },
   openGraph: {
-    title: "Silver Bullion Coin Specifications | Technical Details",
+    title: "Silver Krugerrand Specifications | Technical Details",
     description:
-      "Complete technical specifications for 1 oz silver bullion coins: .999 purity, 1 troy oz weight, government-minted legal tender status, and IRA eligibility.",
+      "Complete technical specifications for the South African Silver Krugerrand: .999 purity, 1 troy oz weight, South African Mint backing, and IRA eligibility.",
     url: `${SITE_CONFIG.domain}/coin-specs`,
     type: "website",
   },
   twitter: {
     card: "summary",
-    title: "Silver Bullion Coin Specifications",
+    title: "Silver Krugerrand Specifications",
     description:
-      "Complete technical specifications for 1 oz silver bullion coins: .999 purity, 1 troy oz weight, and IRA eligibility.",
+      "Complete technical specifications for the South African Silver Krugerrand: .999 purity, 1 troy oz weight, and IRA eligibility.",
   },
 };
 
 const specsData = [
   { label: "Purity", value: ".999 fine silver", highlight: true },
   { label: "Silver Content", value: "1.0000 troy ounce (31.1035 grams)" },
-  { label: "Gross Weight", value: "Approximately 31.1 grams (varies by coin)" },
-  { label: "Diameter", value: "Varies by mint (typically 38-40mm)" },
-  { label: "Thickness", value: "Varies by mint (typically 2.5-3.2mm)" },
-  { label: "Face Value", value: "Varies by issuing nation" },
-  { label: "Mints", value: "U.S. Mint, Royal Canadian Mint, Royal Mint, others" },
-  { label: "Edge", value: "Typically reeded" },
-  { label: "IRA Eligible", value: "Yes (most government-minted coins)", highlight: true },
+  { label: "Gross Weight", value: "33.93 grams" },
+  { label: "Diameter", value: "38.725 mm" },
+  { label: "Thickness", value: "3.2 mm" },
+  { label: "Face Value", value: "1 Rand (South Africa)" },
+  { label: "Mint", value: "South African Mint" },
+  { label: "Edge", value: "Reeded" },
+  { label: "IRA Eligible", value: "Yes", highlight: true },
 ];
 
 const faqData = [
   {
-    question: "What is the purity of government-minted silver coins?",
+    question: "What is the purity of the Silver Krugerrand?",
     answer:
-      "Most government-minted silver bullion coins are .999 fine silver, meaning they contain 99.9% pure silver. The Canadian Silver Maple Leaf is .9999 fine (99.99% pure). This high purity ensures maximum silver content and IRA eligibility.",
+      "The Silver Krugerrand is struck in .999 fine silver, meaning it contains 99.9% pure silver. This high purity ensures maximum silver content and meets the IRS minimum requirement for Precious Metals IRA eligibility.",
   },
   {
-    question: "How much silver is in a 1 oz silver coin?",
+    question: "How much silver is in a Silver Krugerrand?",
     answer:
-      "Each 1 oz silver bullion coin contains exactly 1.0000 troy ounce (31.1035 grams) of pure silver. The gross weight may vary slightly due to manufacturing tolerances, but the silver content is guaranteed.",
+      "Each 1 oz Silver Krugerrand contains exactly 1.0000 troy ounce (31.1035 grams) of pure silver. The gross weight of 33.93 grams includes the coin's silver content plus a small amount of alloy for durability.",
   },
   {
-    question: "Are silver bullion coins legal tender?",
+    question: "Is the Silver Krugerrand legal tender?",
     answer:
-      "Yes, government-minted silver bullion coins carry legal tender status in their country of origin. The American Silver Eagle has a $1 face value, though its silver content is worth significantly more. This government backing provides authenticity assurance.",
+      "Yes, the Silver Krugerrand carries a face value of 1 South African Rand, making it legal tender in South Africa. Like all bullion coins, its silver content is worth significantly more than its face value. This government backing provides authenticity assurance.",
   },
   {
-    question: "Can I hold silver coins in an IRA?",
+    question: "Can I hold Silver Krugerrands in an IRA?",
     answer:
-      "Yes, many silver bullion coins meet IRS requirements for inclusion in a Precious Metals IRA. The .999 purity meets the IRS minimum fineness requirement. You will need a qualified custodian and approved depository to hold IRA-owned coins.",
+      "Yes, Silver Krugerrand coins meet IRS requirements for inclusion in a Precious Metals IRA. The .999 purity meets the IRS minimum fineness requirement. You will need a qualified custodian and approved depository to hold IRA-owned coins.",
   },
   {
-    question: "Why do silver coins have a premium over spot price?",
+    question: "Why do Silver Krugerrands have a premium over spot price?",
     answer:
-      "Premiums reflect minting costs, dealer margins, and supply/demand dynamics. Premiums account for mint production costs, distribution, the coin's legal tender status, and its recognition as a trusted government-minted product. Premiums vary based on market conditions.",
+      "Premiums reflect South African Mint production costs, dealer margins, and supply/demand dynamics. Premiums account for minting, distribution, the coin's legal tender status, and its recognition as a product from the world's most famous bullion coin family.",
   },
   {
-    question: "How do different silver coins compare in specifications?",
+    question: "When was the Silver Krugerrand introduced?",
     answer:
-      "Most 1 oz government silver coins share similar specifications: .999 purity, 1 troy oz silver content, and legal tender status. Key differences include diameter, thickness, design, and the issuing mint. The Canadian Maple Leaf offers .9999 purity.",
+      "The Silver Krugerrand was first minted in 2017 to commemorate the 50th anniversary of the Gold Krugerrand. It shares the same iconic design as the original 1967 Gold Krugerrand, featuring Paul Kruger on the obverse and the Springbok antelope on the reverse.",
   },
   {
-    question: "What affects silver coin premiums?",
+    question: "What affects Silver Krugerrand premiums?",
     answer:
-      "Key premium drivers include: mint production capacity, dealer inventory levels, overall demand for physical silver, the coin's recognition and liquidity, and broader precious metals market conditions. During high demand periods, premiums typically increase.",
+      "Key premium drivers include: South African Mint production capacity, dealer inventory levels, overall demand for physical silver, the Krugerrand's global recognition, and broader precious metals market conditions. During high demand periods, premiums typically increase.",
   },
 ];
 
@@ -78,9 +78,9 @@ export default function CoinSpecsPage() {
   const webPageSchema = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    name: "Silver Bullion Coin Specifications",
+    name: "South African Silver Krugerrand Specifications",
     description:
-      "Complete technical specifications and investor facts for 1 oz silver bullion coins.",
+      "Complete technical specifications and investor facts for the South African Silver Krugerrand coin.",
     url: `${SITE_CONFIG.domain}/coin-specs`,
     publisher: {
       "@type": "Organization",
@@ -118,10 +118,10 @@ export default function CoinSpecsPage() {
           {/* Header */}
           <div className="text-center mb-12">
             <h1 className="text-4xl md:text-5xl font-display font-bold mb-4">
-              <span className="accent-text">Silver Coin</span> Specifications
+              <span className="accent-text">Silver Krugerrand</span> Specifications
             </h1>
             <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-              Technical details and investor-facing facts for 1 oz silver bullion coins from major government mints.
+              Technical details and investor-facing facts for the South African Silver Krugerrand coin.
             </p>
           </div>
 
@@ -154,7 +154,7 @@ export default function CoinSpecsPage() {
               The .999 Purity Standard
             </h2>
             <p className="text-slate-600 leading-relaxed mb-4">
-              At .999 fineness, government-minted silver coins contain 99.9% pure silver with minimal alloys.
+              At .999 fineness, the Silver Krugerrand contains 99.9% pure silver with minimal alloys.
             </p>
             <ul className="space-y-3 text-slate-600">
               <li className="flex items-start gap-3">
@@ -167,22 +167,22 @@ export default function CoinSpecsPage() {
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-slate-500 mt-1">•</span>
-                <span><strong className="text-slate-900">Global recognition</strong>: Standard purity for major silver bullion coins worldwide</span>
+                <span><strong className="text-slate-900">Global recognition</strong>: Standard purity level matching other major silver bullion coins</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-slate-500 mt-1">•</span>
-                <span><strong className="text-slate-900">Simple valuation</strong>: Silver content equals coin weight, making spot price calculations straightforward</span>
+                <span><strong className="text-slate-900">Simple valuation</strong>: Silver content equals one troy ounce, making spot price calculations straightforward</span>
               </li>
             </ul>
             <p className="text-slate-500 text-sm mt-4">
-              Learn more about silver purity at{" "}
+              Learn more about Silver Krugerrand coins at{" "}
               <a
-                href="https://www.monex.com/silver-coins/"
+                href="https://www.monex.com/south-african-silver-krugerrand-coins-for-sale/"
                 target="_blank"
                 rel="nofollow noopener noreferrer"
                 className="text-slate-700 hover:underline font-medium"
               >
-                Monex Silver Coins
+                Monex Silver Krugerrand
               </a>
             </p>
           </section>
@@ -193,25 +193,25 @@ export default function CoinSpecsPage() {
               Legal Tender Status
             </h2>
             <p className="text-slate-600 leading-relaxed mb-4">
-              Government-minted silver coins carry legal tender status in their country of origin. This government backing provides:
+              The Silver Krugerrand carries a face value of 1 South African Rand, making it legal tender in South Africa. This government backing provides:
             </p>
             <div className="grid md:grid-cols-2 gap-4">
               <div className="bg-slate-50 rounded-lg p-4">
                 <h3 className="text-slate-800 font-semibold mb-2">Authenticity Assurance</h3>
                 <p className="text-slate-500 text-sm">
-                  Produced by sovereign mints with strict quality controls and anti-counterfeiting measures.
+                  Produced by the South African Mint with strict quality controls and anti-counterfeiting measures.
                 </p>
               </div>
               <div className="bg-slate-50 rounded-lg p-4">
                 <h3 className="text-slate-800 font-semibold mb-2">Government Guarantee</h3>
                 <p className="text-slate-500 text-sm">
-                  Weight and purity backed by the issuing government.
+                  Weight and purity backed by the South African government.
                 </p>
               </div>
               <div className="bg-slate-50 rounded-lg p-4">
                 <h3 className="text-slate-800 font-semibold mb-2">Market Recognition</h3>
                 <p className="text-slate-500 text-sm">
-                  Widely recognized and accepted by dealers worldwide, supporting liquidity.
+                  The Krugerrand name is recognized worldwide by dealers and investors, supporting liquidity.
                 </p>
               </div>
               <div className="bg-slate-50 rounded-lg p-4">
@@ -229,7 +229,7 @@ export default function CoinSpecsPage() {
               IRA Eligibility Considerations
             </h2>
             <p className="text-slate-600 leading-relaxed mb-4">
-              Many silver bullion coins qualify for inclusion in a Precious Metals IRA (Self-Directed IRA). Key considerations:
+              Silver Krugerrand coins qualify for inclusion in a Precious Metals IRA (Self-Directed IRA). Key considerations:
             </p>
             <ul className="space-y-3 text-slate-600 mb-4">
               <li className="flex items-start gap-3">
@@ -238,7 +238,7 @@ export default function CoinSpecsPage() {
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-emerald-600">✓</span>
-                <span>Produced by an approved national mint</span>
+                <span>Produced by the South African Mint (approved national mint)</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-emerald-600">✓</span>
@@ -262,13 +262,13 @@ export default function CoinSpecsPage() {
               Understanding Premium Drivers
             </h2>
             <p className="text-slate-600 leading-relaxed mb-4">
-              Silver coins trade at a premium above the spot price of silver. Factors that influence premiums include:
+              Silver Krugerrands trade at a premium above the spot price of silver. Factors that influence premiums include:
             </p>
             <div className="space-y-4">
               <div className="border-l-2 border-slate-300 pl-4">
                 <h3 className="text-slate-900 font-semibold">Minting Costs</h3>
                 <p className="text-slate-500 text-sm">
-                  Sovereign mint production, quality control, and distribution expenses.
+                  South African Mint production, quality control, and distribution expenses.
                 </p>
               </div>
               <div className="border-l-2 border-slate-300 pl-4">
@@ -280,7 +280,7 @@ export default function CoinSpecsPage() {
               <div className="border-l-2 border-slate-300 pl-4">
                 <h3 className="text-slate-900 font-semibold">Supply & Demand</h3>
                 <p className="text-slate-500 text-sm">
-                  Mint production capacity versus investor demand for physical silver.
+                  South African Mint production capacity versus investor demand for Silver Krugerrands.
                 </p>
               </div>
               <div className="border-l-2 border-slate-300 pl-4">
@@ -290,21 +290,21 @@ export default function CoinSpecsPage() {
                 </p>
               </div>
               <div className="border-l-2 border-slate-300 pl-4">
-                <h3 className="text-slate-900 font-semibold">Product Recognition</h3>
+                <h3 className="text-slate-900 font-semibold">Brand Recognition</h3>
                 <p className="text-slate-500 text-sm">
-                  Government backing and global recognition support competitive spreads.
+                  The Krugerrand name carries 50+ years of bullion heritage, supporting competitive spreads.
                 </p>
               </div>
             </div>
             <p className="text-slate-500 text-sm mt-4">
-              View current silver pricing at{" "}
+              View current Silver Krugerrand pricing at{" "}
               <a
-                href="https://www.monex.com/silver-prices/"
+                href="https://www.monex.com/silver-south-african-krugerrand-price-charts/"
                 target="_blank"
                 rel="nofollow noopener noreferrer"
                 className="text-slate-700 hover:underline font-medium"
               >
-                Monex Silver Prices
+                Monex Silver Krugerrand Price Charts
               </a>
             </p>
           </section>

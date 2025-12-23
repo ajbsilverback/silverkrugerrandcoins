@@ -3,24 +3,24 @@ import Link from "next/link";
 import { SITE_CONFIG } from "@/lib/siteConfig";
 
 export const metadata: Metadata = {
-  title: "About Silver Bullion Coins | Independent Educational Resource",
+  title: "About Silver Krugerrand Coins | Independent Educational Resource",
   description:
-    "Silver Bullion Coins is an independent educational resource about silver bullion coins. We do not sell precious metals, provide financial advice, or endorse any dealers.",
+    "Silver Krugerrand Coins is an independent educational resource about South African Silver Krugerrand coins. We do not sell precious metals, provide financial advice, or endorse any dealers.",
   alternates: {
     canonical: `${SITE_CONFIG.canonicalDomain}/about`,
   },
   openGraph: {
-    title: "About Silver Bullion Coins | Independent Educational Resource",
+    title: "About Silver Krugerrand Coins | Independent Educational Resource",
     description:
-      "Independent educational resource about silver bullion coins. We do not sell precious metals or provide financial advice.",
+      "Independent educational resource about South African Silver Krugerrand coins. We do not sell precious metals or provide financial advice.",
     url: `${SITE_CONFIG.domain}/about`,
     type: "website",
   },
   twitter: {
     card: "summary",
-    title: "About Silver Bullion Coins | Independent Educational Resource",
+    title: "About Silver Krugerrand Coins | Independent Educational Resource",
     description:
-      "Independent educational resource about silver bullion coins. We do not sell precious metals or provide financial advice.",
+      "Independent educational resource about South African Silver Krugerrand coins. We do not sell precious metals or provide financial advice.",
   },
 };
 
@@ -28,9 +28,9 @@ export default function AboutPage() {
   const webPageSchema = {
     "@context": "https://schema.org",
     "@type": "AboutPage",
-    name: "About Silver Bullion Coins",
+    name: "About Silver Krugerrand Coins",
     description:
-      "Learn about Silver Bullion Coins, an independent educational resource about silver bullion coins.",
+      "Learn about Silver Krugerrand Coins, an independent educational resource about South African Silver Krugerrand coins.",
     url: `${SITE_CONFIG.domain}/about`,
     publisher: {
       "@type": "Organization",
@@ -54,7 +54,7 @@ export default function AboutPage() {
               About <span className="accent-text">{SITE_CONFIG.brandName}</span>
             </h1>
             <p className="text-xl text-slate-600">
-              An independent educational resource for silver coin investors
+              An independent educational resource for Silver Krugerrand investors
             </p>
           </div>
 
@@ -68,14 +68,14 @@ export default function AboutPage() {
               <p className="text-slate-600 leading-relaxed mb-4">
                 {SITE_CONFIG.brandName} is an independent educational website
                 dedicated to helping investors understand{" "}
-                {SITE_CONFIG.primaryProduct}, including government-minted coins 
-                with .999 fine purity.
+                {SITE_CONFIG.primaryProduct}, the silver version of the world&apos;s
+                most famous bullion coin.
               </p>
               <p className="text-slate-600 leading-relaxed">
                 Our mission is to provide clear, unbiased information about 
-                silver coin investing, including pricing mechanics, purity 
-                standards, IRA eligibility, and how different silver coins compare 
-                to each other.
+                Silver Krugerrand investing, including pricing mechanics, purity 
+                standards, IRA eligibility, and how the Silver Krugerrand compares 
+                to other silver bullion coins.
               </p>
             </section>
 
@@ -90,14 +90,14 @@ export default function AboutPage() {
                   <span className="text-red-500 mt-1">✕</span>
                   <span>
                     <strong className="text-slate-900">Not a dealer:</strong> We do
-                    not sell silver coins, bars, or any precious metals.
+                    not sell Silver Krugerrands, silver bars, or any precious metals.
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-red-500 mt-1">✕</span>
                   <span>
                     <strong className="text-slate-900">Not affiliated:</strong> We
-                    have no financial relationship with Monex, any government mint, or 
+                    have no financial relationship with Monex, the South African Mint, or 
                     any of the dealers mentioned on our site.
                   </span>
                 </li>
@@ -136,8 +136,8 @@ export default function AboutPage() {
                 <li className="flex items-start gap-3">
                   <span className="text-slate-500">•</span>
                   <span>
-                    <strong className="text-slate-900">Silver coin price</strong> (current
-                    ask price for silver bullion coins)
+                    <strong className="text-slate-900">Silver Krugerrand price</strong> (current
+                    ask price for Silver Krugerrand coins)
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
@@ -197,27 +197,28 @@ export default function AboutPage() {
               </ul>
             </section>
 
-            {/* About Silver Bullion Coins */}
+            {/* About Silver Krugerrand Coins */}
             <section className="card p-6 md:p-8 bg-slate-50 border-slate-200">
               <h2 className="text-2xl font-display font-semibold text-slate-900 mb-4">
-                About Silver Bullion Coins
+                About the Silver Krugerrand
               </h2>
               <p className="text-slate-600 leading-relaxed mb-4">
-                Silver bullion coins are government-minted coins containing a specific 
-                weight of .999 fine silver. Popular examples include:
+                The Silver Krugerrand is a silver bullion coin minted by the South African Mint.
+                Introduced in 2017 to commemorate the 50th anniversary of the Gold Krugerrand,
+                it features:
               </p>
               <ul className="space-y-2 text-slate-600">
                 <li className="flex items-start gap-3">
                   <span className="text-slate-500">•</span>
-                  <span><strong className="text-slate-900">American Silver Eagle</strong> (U.S. Mint)</span>
+                  <span><strong className="text-slate-900">Paul Kruger portrait</strong> on the obverse</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-slate-500">•</span>
-                  <span><strong className="text-slate-900">Canadian Silver Maple Leaf</strong> (Royal Canadian Mint)</span>
+                  <span><strong className="text-slate-900">Springbok antelope</strong> on the reverse</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-slate-500">•</span>
-                  <span><strong className="text-slate-900">British Silver Britannia</strong> (Royal Mint)</span>
+                  <span><strong className="text-slate-900">.999 fine silver</strong> purity</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-slate-500">•</span>

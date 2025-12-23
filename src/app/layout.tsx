@@ -7,23 +7,23 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_CONFIG.canonicalDomain),
   title: {
-    default: `${SITE_CONFIG.brandName} | .999 Fine Silver Coin Guide`,
+    default: `${SITE_CONFIG.brandName} | South African .999 Fine Silver`,
     template: `%s | ${SITE_CONFIG.brandName}`,
   },
   description:
-    "Discover everything about silver bullion coins. Government-minted, .999 fine silver coins with strong liquidity. Expert insights on pricing, premiums, and investing.",
+    "Discover everything about South African Silver Krugerrand coins. Government-minted by the South African Mint, .999 fine silver with strong global liquidity. Expert insights on pricing, premiums, and investing.",
   keywords: [
-    "silver bullion coins",
-    "silver coin",
-    "1 oz silver coin",
+    "Silver Krugerrand",
+    "South African Silver Krugerrand",
+    "Silver Krugerrand coin",
+    "1 oz Silver Krugerrand",
     ".999 fine silver",
-    "silver bullion",
-    "buy silver coins",
-    "silver coin prices",
-    "silver coin investment",
+    "silver bullion coins",
+    "buy Silver Krugerrand",
+    "Silver Krugerrand price",
+    "Silver Krugerrand investment",
     "IRA eligible silver",
-    "Silver Eagle",
-    "Silver Maple Leaf",
+    "South African Mint",
   ],
   authors: [{ name: SITE_CONFIG.brandName }],
   creator: SITE_CONFIG.brandName,
@@ -33,23 +33,23 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: SITE_CONFIG.domain,
     siteName: SITE_CONFIG.brandName,
-    title: `${SITE_CONFIG.brandName} | .999 Fine Silver Coin Guide`,
+    title: `${SITE_CONFIG.brandName} | South African .999 Fine Silver`,
     description:
-      "Discover everything about silver bullion coins. Government-minted, .999 fine silver coins with strong liquidity.",
+      "Discover everything about South African Silver Krugerrand coins. Government-minted, .999 fine silver with strong global liquidity.",
     images: [
       {
         url: `${SITE_CONFIG.domain}/og-image.jpg`,
         width: 1200,
         height: 630,
-        alt: "Silver Bullion Coins - Investment Education",
+        alt: "South African Silver Krugerrand Coins - Investment Education",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: `${SITE_CONFIG.brandName} | .999 Fine Silver Coin Guide`,
+    title: `${SITE_CONFIG.brandName} | South African .999 Fine Silver`,
     description:
-      "Discover everything about silver bullion coins. Government-minted, .999 fine silver coins with strong liquidity.",
+      "Discover everything about South African Silver Krugerrand coins. Government-minted, .999 fine silver with strong global liquidity.",
   },
   robots: {
     index: true,

@@ -7,7 +7,7 @@ interface CapitalRequirementsCardProps {
 }
 
 /**
- * Server Component - Displays the approximate capital required to purchase a silver coin.
+ * Server Component - Displays the approximate capital required to purchase a Silver Krugerrand.
  * 
  * Uses configured product pricing from Monex API.
  * Can receive pre-fetched price data or will fetch its own if not provided.
@@ -38,8 +38,8 @@ export default async function CapitalRequirementsCard({ priceData }: CapitalRequ
       </h3>
       <p className="text-slate-600 text-sm text-center mb-6">
         {hasValidPrice
-          ? `Based on current silver coin (${SITE_CONFIG.productSymbol}) ask price:`
-          : "To purchase a single silver bullion coin:"}
+          ? `Based on current Silver Krugerrand (${SITE_CONFIG.productSymbol}) ask price:`
+          : "To purchase a single Silver Krugerrand:"}
       </p>
       <div className="text-center py-6 rounded-lg bg-slate-100 border border-slate-200">
         {hasValidPrice ? (
@@ -47,7 +47,7 @@ export default async function CapitalRequirementsCard({ priceData }: CapitalRequ
             <span className="text-4xl font-display font-bold accent-text">
               ≈ {roundToOne(data.ask)}
             </span>
-            <p className="text-slate-600 text-sm mt-2">per 1 oz silver coin</p>
+            <p className="text-slate-600 text-sm mt-2">per 1 oz Silver Krugerrand</p>
           </>
         ) : (
           <>
